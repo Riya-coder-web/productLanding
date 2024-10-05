@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    padding-top: 50px;
+  }
+  
+  h1, h2, h3 {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00bfff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+  }
+  
+  #header-img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+  }
+  
+  #nav-bar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  #hero {
+    background-color: #dff0d8;
+    padding: 80px 20px;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .cta-button {
+    background-color: #00bfff;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #008ccc;
+  }
+  
+  #product-benefits {
+    background-color: #f8f8f8;
+  }
+  
+  #product-benefits ul li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  #nutrition-info {
+    background-color: #e9ecef;
+  }
+  
+  #flavors {
+    background-color: #fff;
+  }
+  
+  #flavors p {
+    font-size: 18px;
+  }
+  
+  #product-video {
+    background-color: #f8f8f8;
+  }
+  
+  #subscribe {
+    background-color: #dff0d8;
+    padding: 60px 20px;
+  }
+  
+  #subscribe form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #subscribe label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #subscribe input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #subscribe input[type="submit"] {
+    background-color: #00bfff;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #subscribe input[type="submit"]:hover {
+    background-color: #008ccc;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    max-width: 300px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p, .footer-section a {
+    font-size: 14px;
+    color: white;
+    margin: 5px 0;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #00bfff;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  .footer-bottom a {
+    color: #00bfff;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #nav-bar a {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    #hero h1 {
+      font-size: 28px;
+    }
+  
+    #hero p {
+      font-size: 16px;
+    }
+  
+    .cta-button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  
+    section {
+      padding: 30px 10px;
+    }
+  
+    #subscribe input[type="email"],
+    #subscribe input[type="submit"] {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
